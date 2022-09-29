@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/poc.htl.cif/clientlibs"/>
+    <filter root="/apps/poc.htl.cif/components"/>
+    <filter root="/apps/poc.htl.cif/i18n"/>
+</workspaceFilter>

@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/poc.htl.cif",
+        "create path (nt:unstructured) /content/dam/poc.htl.cif/jcr:content",
+        "set properties on /content/dam/poc.htl.cif/jcr:content\n  set cq:conf{String} to /conf/poc.htl.cif\n  set jcr:title{String} to \"aem.htl.cif\"\nend"
+    ]
+}

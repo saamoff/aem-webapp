@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "poc.htl.cif/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/poc.htl.cif" mode="merge"/>
+    <filter root="/content/poc.htl.cif" mode="merge"/>
+    <filter root="/content/dam/poc.htl.cif/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/poc.htl.cif" mode="merge"/>
+</workspaceFilter>
