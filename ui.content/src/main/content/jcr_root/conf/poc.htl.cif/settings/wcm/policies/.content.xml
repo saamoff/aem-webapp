@@ -34,11 +34,11 @@
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
-                    disableLazyLoading="false"
-                    enableAssetDelivery="true"
                     allowUpload="false"
                     altValueFromDAM="true"
+                    disableLazyLoading="false"
                     displayPopupTitle="true"
+                    enableAssetDelivery="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
                     titleValueFromDAM="true"
@@ -247,10 +247,10 @@
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
                             <mapping_1575030255082
                                 jcr:primaryType="nt:unstructured"
-                                assetGroup="media"
+                                assetGroup="product"
                                 assetMimetype="image/*"
-                                droptarget="image"
-                                resourceType="poc.htl.cif/components/image"/>
+                                droptarget="product-data-reference"
+                                resourceType="poc.htl.cif/components/commerce/productteaser"/>
                             <mapping_1575030260142
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="content"
@@ -263,11 +263,6 @@
                                 assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
                                 droptarget="contentfragment"
                                 resourceType="poc.htl.cif/components/contentfragment"/>
-                            <mapping_1575030255082
-                                jcr:primaryType="nt:unstructured"
-                                assetGroup="product"
-                                droptarget="product-data-reference"
-                                resourceType="poc.htl.cif/components/commerce/productteaser"/>
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1574695586800>
@@ -307,10 +302,10 @@
                                 droptarget="contentfragment"
                                 resourceType="poc.htl.cif/components/contentfragment"/>
                             <mapping_1590416532200
-                                jcr:primaryType="nt:unstructured" 
-                                assetGroup="product" 
-                                droptarget="product-data-reference" 
-                                resourceType="poc.htl.cif/components/commerce/productteaser" />
+                                jcr:primaryType="nt:unstructured"
+                                assetGroup="product"
+                                droptarget="product-data-reference"
+                                resourceType="poc.htl.cif/components/commerce/productteaser"/>
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
@@ -359,8 +354,8 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="AEM CIF Core Components Product List"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        showTitle="true"
-                        showImage="true">
+                        showImage="true"
+                        showTitle="true">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -368,15 +363,15 @@
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
-                                        jcr:primaryType="nt:unstructured"
                                         cq:styleClasses="category__style_grid"
                                         cq:styleId="1570700958199"
-                                        cq:styleLabel="Grid" />
+                                        cq:styleLabel="Grid"
+                                        jcr:primaryType="nt:unstructured"/>
                                     <item1
-                                        jcr:primaryType="nt:unstructured"
                                         cq:styleClasses="category__style_list"
                                         cq:styleId="1570700958900"
-                                        cq:styleLabel="List" />
+                                        cq:styleLabel="List"
+                                        jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
                         </cq:styleGroups>
@@ -438,7 +433,7 @@
                         jcr:title="AEM CIF Core Components Commerce Teaser"
                         sling:resourceType="wcm/core/components/policy/policy"
                         titleType="h3">
-                        <jcr:content jcr:primaryType="nt:unstructured" />
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
                     </default>
                 </teaser>
             </commerce>
