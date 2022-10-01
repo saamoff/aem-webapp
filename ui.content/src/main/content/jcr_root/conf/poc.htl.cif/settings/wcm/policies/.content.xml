@@ -337,10 +337,13 @@
             <page jcr:primaryType="nt:unstructured">
                 <policy
                     jcr:description="Includes the required client libraries."
+                    jcr:lastModified="{Date}2022-10-01T16:37:38.143-03:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Generic Page"
                     sling:resourceType="wcm/core/components/policy/policy"
                     clientlibs="[poc.htl.cif.dependencies,poc.htl.cif.site]"
+                    clientlibsAsync="false"
                     clientlibsJsHead="poc.htl.cif.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
