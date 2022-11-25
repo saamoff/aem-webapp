@@ -1,0 +1,75 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.verizon-header{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 7.75rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+
+  img{
+    height: 4.75rem;
+    width: 21.3125rem;
+    margin-left: 10.0625rem;
+  }
+
+  @media(max-width: 414px){
+    img{
+      height: 2.5rem;
+      width: 11.2806rem;
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+.cmp-container{
+  &__menu{
+    margin-right: 10.1875rem;
+    margin-top: 2.625rem;
+
+    ul{
+      list-style: none;
+      display: -webkit-inline-box;
+
+      li{
+        margin-right: 1.5rem;
+        img{
+          height: 1.5rem;
+          width: 1.5rem;
+          padding: 0;
+          margin: 0;
+        }
+
+        a{
+          font-weight: 500;
+          font-size: 1.125rem;
+          line-height: 1.3125rem;
+        }
+      }
+    }
+
+    @media(max-width:414px){
+      margin-right: 2.5rem;
+      margin-top: .5625rem;
+      
+      .desktop{
+        display: none;
+      }
+
+      .imgMenuMobile{
+        display: block;
+      }
+    }
+  }
+}
+
+.imgMenuMobile{
+  display: none;
+}
